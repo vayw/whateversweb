@@ -1,0 +1,74 @@
+@import url('base.css');
+
+#container {
+	z-index: 1;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100%;
+	width: 100%;
+
+	left: 0;
+	right: 0;
+
+}
+
+#background {
+	background-image: url(./static/background.png);
+
+        /* Add the blur effect */
+        filter: blur(20px);
+        -webkit-filter: blur(20px);
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+	z-index: -1;
+
+	height: 100%;
+	width: 100%;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+#column {
+	margin: 20px auto;
+	width: 400px;
+	background-color: black;
+	border-radius: 15px;
+	padding-top: 10px;
+}
+
+#band {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 350px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+}
+
+#band-img {
+	width: 350px; 
+	border-radius: 13px;
+}
+
+#player {
+	margin: 0 auto;
+	height: 80px;
+	overflow: hidden;
+	width: 350px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.badge {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 250px;
+	height: 100px;
+}
+
