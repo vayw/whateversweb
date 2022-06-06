@@ -41,6 +41,7 @@
 	background-color: black;
 	border-radius: 15px;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #band {
@@ -52,13 +53,13 @@
 }
 
 #band-img {
-	width: 350px; 
+	width: 350px;
 	border-radius: 13px;
 }
 
 #player {
 	margin: 0 auto;
-	height: 80px;
+	height: 200px;
 	overflow: hidden;
 	width: 350px;
 	border-radius: 5px;
